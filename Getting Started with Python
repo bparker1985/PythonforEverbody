@@ -1,0 +1,70 @@
+Part 1 of "Python for Everybody" is titled "Programming for Everybody (Getting Started with Python)." 
+This part serves as the introduction to programming using the Python language. 
+It covers fundamental and basic concepts including terminology and provides a solid foundation for those who are new to programming. 
+Below I’ve listed what I think are the main takeaways as well as some additional points that include terminology. 
+I chose to omit some parts such as knowing the names of computer components such as CPU and I have also omitted basic procedures such as installing Python.
+---
+Main Points
+1. Syntax and Semantics:
+-	Syntax refers to the structure and rules of a programming language.
+  •	Proper indentation is important in Python to define blocks of code.
+  •	Parentheses are used to group expressions or function arguments.
+  •	Quotation marks are used to denote strings.
+-	Semantics refers to the meaning and interpretation of the code.
+  •	Understanding error messages helps identify and fix issues in the code.
+  •	Following the correct syntax ensures that the code behaves as intended.
+
+Example Code
+x = 5  # Correct assignment statement
+if x > 10:  # Correct usage of if statement
+    print("Greater than 10")
+else:
+    print("Less than or equal to 10")
+print(x)  # Correct usage of print function
+---
+2. Procedural Programming:
+- Procedural programming is a programming paradigm where a program is structured as a series of sequential steps.
+•	In Part 1, learners work with code that is executed in a top-down manner, with each instruction being processed one after another.
+•	This approach helps learners understand the flow and structure of a program.
+Example Code
+x = 5
+y = 2
+z = x + y  # Sequential execution of addition operation
+print(z)  # Output: 7
+---
+Key Terminology
+1. Variables:
+   - Variables are used to store data in Python programs.
+   - To assign a value to a variable, the syntax is: `variable_name = value`.
+   - Variables can store different types of data, such as numbers, strings (text), and boolean values (True or False).
+   - Example: `x = 5` assigns the value 5 to the variable `x`.
+
+2. Expressions:
+   - Expressions are combinations of values, variables, and operators that can be evaluated to produce a result.
+   - Arithmetic operators in Python include addition (+), subtraction (-), multiplication (*), division (/), floor division (//), and modulo (%).
+   - Expressions can be as simple as performing arithmetic operations or can involve more complex calculations.
+   - Example: `result = 2 * (3 + 4)` assigns the value 14 to the variable `result` by evaluating the expression.
+
+3. Conditional Execution:
+   - Conditional statements allow the program to execute different blocks of code based on certain conditions.
+   - The `if` statement checks if a condition is True and executes a block of code if the condition is met.
+   - The `else` statement provides an alternative block of code to execute if the condition in the `if` statement is False.
+   - The `elif` statement allows for multiple conditions to be checked sequentially.
+Example Code
+if x > 0:
+    print("Positive")
+elif x < 0:
+    print("Negative")
+else:
+    print("Zero")
+
+4. Functions:
+   - Functions are reusable blocks of code that perform specific tasks.
+   - Functions can take input arguments, perform operations, and return output values.
+   - Functions help organize code and promote code reusability.
+Example Code:
+def add_numbers(a, b):
+    sum = a + b
+    return sum
+result = add_numbers(3, 4)
+print(result)  # Output: 7
